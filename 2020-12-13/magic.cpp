@@ -74,7 +74,8 @@ int main() {
 
   for(scanf(" %d", &t); t>0; --t) {
     scanf(" %d %d %d %d", 
-	  &enemy.p.x, &enemy.p.y, &enemy.w, &enemy.h);
+	  &enemy.w, &enemy.h,
+	  &enemy.p.x, &enemy.p.y);
     scanf(" %s %d %d %d",
 	  name, &level,
 	  &magic.c.x, &magic.c.y);
